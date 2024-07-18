@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @ankurarora1418
 - 👀 I’m interested in Data analytics and Data science
-- 🌱 I’m currently skilling up as a data scientist
-- 💞️ I’m looking to collaborate on analytics and data science projects
+- 🌱 I’m currently skilling up as a AI Engineer
+- 💞️ I’m looking to collaborate on analytics and data science, AI/ML projects
 - 📫 Reach out to me on my email: ankurarora81@gmail.com
 
 <!---
