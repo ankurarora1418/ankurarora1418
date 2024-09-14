@@ -1,9 +1,111 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="24.7.14">
   <diagram name="Page-1" id="Dg9BbDXzHSJC-4Whgs1x">
-    <mxGraphModel>
+    <mxGraphModel dx="951" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BW7tFEogzod8tL8mpwt0-1" value="Performance Tuning" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="90" width="710" height="531" as="geometry" />
+        </mxCell>
+        <mxCell id="BW7tFEogzod8tL8mpwt0-2" value="SQL Client Application" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="931" y="45" width="220" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="BW7tFEogzod8tL8mpwt0-3" value="SQL Database Server" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="64" y="166" width="207" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="BW7tFEogzod8tL8mpwt0-4" value="Query Optimizer" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="276" y="287" width="178" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="BW7tFEogzod8tL8mpwt0-5" value="Storage" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="521" y="547" width="114" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="BW7tFEogzod8tL8mpwt0-6" value="SQL Engine" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="392" y="417" width="139" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="BW7tFEogzod8tL8mpwt0-7" value="Query Optimization" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="385" y="166" width="200" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="BW7tFEogzod8tL8mpwt0-8" value="Index Tuning" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="505" y="287" width="152" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="BW7tFEogzod8tL8mpwt0-9" value="Memory and Disk Optimization" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="612" y="409" width="181" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="BW7tFEogzod8tL8mpwt0-10" value="Concurrency Management" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="259" y="45" width="245" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="BW7tFEogzod8tL8mpwt0-11" value="SQL Query" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.64;entryX=0.41;entryY=0;rounded=0;" edge="1" parent="1" source="BW7tFEogzod8tL8mpwt0-2" target="BW7tFEogzod8tL8mpwt0-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="119" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BW7tFEogzod8tL8mpwt0-12" value="Execution Plan" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=1;entryX=0.22;entryY=0.01;rounded=0;" edge="1" parent="1" source="BW7tFEogzod8tL8mpwt0-3" target="BW7tFEogzod8tL8mpwt0-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="239" y="251" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BW7tFEogzod8tL8mpwt0-13" value="Reads Data" style="curved=1;startArrow=none;endArrow=block;exitX=0.41;exitY=1;entryX=0;entryY=0.35;rounded=0;" edge="1" parent="1" source="BW7tFEogzod8tL8mpwt0-3" target="BW7tFEogzod8tL8mpwt0-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="251" />
+              <mxPoint x="120" y="511" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BW7tFEogzod8tL8mpwt0-14" value="Tuned Execution Plan" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.26;entryY=0.01;rounded=0;" edge="1" parent="1" source="BW7tFEogzod8tL8mpwt0-4" target="BW7tFEogzod8tL8mpwt0-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="365" y="372" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BW7tFEogzod8tL8mpwt0-15" value="Returns Data" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.22;entryX=0.11;entryY=0.99;rounded=0;" edge="1" parent="1" source="BW7tFEogzod8tL8mpwt0-5" target="BW7tFEogzod8tL8mpwt0-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="828" y="511" />
+              <mxPoint x="828" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BW7tFEogzod8tL8mpwt0-16" value="Executes Query" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.09;entryY=0.01;rounded=0;" edge="1" parent="1" source="BW7tFEogzod8tL8mpwt0-6" target="BW7tFEogzod8tL8mpwt0-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="461" y="511" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BW7tFEogzod8tL8mpwt0-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.77;entryY=0.01;rounded=0;" edge="1" parent="1" source="BW7tFEogzod8tL8mpwt0-7" target="BW7tFEogzod8tL8mpwt0-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="485" y="251" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BW7tFEogzod8tL8mpwt0-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.8;entryY=0.01;rounded=0;" edge="1" parent="1" source="BW7tFEogzod8tL8mpwt0-8" target="BW7tFEogzod8tL8mpwt0-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="372" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BW7tFEogzod8tL8mpwt0-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.94;entryY=0.01;rounded=0;" edge="1" parent="1" source="BW7tFEogzod8tL8mpwt0-9" target="BW7tFEogzod8tL8mpwt0-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="702" y="511" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BW7tFEogzod8tL8mpwt0-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.92;entryY=0;rounded=0;" edge="1" parent="1" source="BW7tFEogzod8tL8mpwt0-10" target="BW7tFEogzod8tL8mpwt0-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="381" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
